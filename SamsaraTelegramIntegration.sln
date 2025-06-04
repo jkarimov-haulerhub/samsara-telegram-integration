@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookReceiver", "WebhookReceiver\WebhookReceiver.csproj", "{D305EF78-A69E-4C44-A2CA-3D8F8FB816DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramPublisher", "TelegramPublisher\TelegramPublisher.csproj", "{929BF8BB-377D-4BD6-8AF9-3303D7DA8EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D305EF78-A69E-4C44-A2CA-3D8F8FB816DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D305EF78-A69E-4C44-A2CA-3D8F8FB816DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D305EF78-A69E-4C44-A2CA-3D8F8FB816DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D305EF78-A69E-4C44-A2CA-3D8F8FB816DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929BF8BB-377D-4BD6-8AF9-3303D7DA8EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929BF8BB-377D-4BD6-8AF9-3303D7DA8EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929BF8BB-377D-4BD6-8AF9-3303D7DA8EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929BF8BB-377D-4BD6-8AF9-3303D7DA8EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
