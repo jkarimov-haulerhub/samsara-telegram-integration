@@ -34,7 +34,7 @@ public class Worker : BackgroundService
                 var response = await _sqs.ReceiveMessageAsync(new ReceiveMessageRequest
                 {
                     QueueUrl = _queueUrl,
-                    MaxNumberOfMessages = 1,
+                    MaxNumberOfMessages = 3,
                     WaitTimeSeconds = 10
                 }, stoppingToken);
 
